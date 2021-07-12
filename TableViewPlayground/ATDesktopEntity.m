@@ -64,7 +64,7 @@ NSString *const ATEntityPropertyNamedThumbnailImage = @"thumbnailImage";
     if ([self.fileURL getResourceValue:&result forKey:NSURLLocalizedNameKey error:NULL]) {
         return result;
     }
-    return nil;
+    return self.fileURL.path.lastPathComponent; //fixes a crash in complex table view
 }
 
 

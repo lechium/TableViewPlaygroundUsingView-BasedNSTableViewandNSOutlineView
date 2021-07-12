@@ -194,8 +194,6 @@
         NSTextField *textField = [tableView makeViewWithIdentifier:@"TextCell" owner:self];
         if (entity.title) {
             textField.stringValue = entity.title;
-        } else { //not pulling back localized strings properly.
-            textField.stringValue = @"Desktop Pictures";
         }
         return textField;
     } else {
