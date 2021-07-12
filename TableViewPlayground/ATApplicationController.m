@@ -46,7 +46,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)notification {
     // Create our three windows on startup.
     [self newWindowWithControllerClass:[ATBasicTableViewWindowController class]];
-    //[self newWindowWithControllerClass:[ATComplexTableViewController class]];
+    [self newWindowWithControllerClass:[ATComplexTableViewController class]];
     [self newWindowWithControllerClass:[ATComplexOutlineController class]];
 }
 

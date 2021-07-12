@@ -35,9 +35,7 @@
     [super windowDidLoad];
     
     // Setup our content to be the contents of the Desktop Pictures folder.
-    NSURL *picturesURL =
-    [NSURL URLWithString:@"/System/Library"];
-    picturesURL = [picturesURL URLByAppendingPathComponent:@"Desktop Pictures"];
+    NSURL *picturesURL = [ATDesktopPicturesLocation desktopPicturesLocation];
     _rootContents = [[ATDesktopFolderEntity alloc] initWithFileURL:picturesURL];
     
     [self.outlineView reloadData];

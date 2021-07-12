@@ -59,9 +59,7 @@
     [super windowDidLoad];
         
     // Setup our content to be the contents of the Desktop Pictures folder.
-    NSURL *picturesURL =
-    [NSURL URLWithString:@"/System/Library"];
-    picturesURL = [picturesURL URLByAppendingPathComponent:@"Desktop Pictures"];
+    NSURL *picturesURL = [ATDesktopPicturesLocation desktopPicturesLocation];
     ATDesktopFolderEntity *primaryFolder = [[ATDesktopFolderEntity alloc] initWithFileURL:picturesURL];
     
     // Create a flat array of ATDesktopFolderEntity and ATDesktopImageEntity objects to display.
@@ -194,7 +192,11 @@
     ATDesktopEntity *entity = [self entityForRow:row];
     if ([entity isKindOfClass:[ATDesktopFolderEntity class]]) {
         NSTextField *textField = [tableView makeViewWithIdentifier:@"TextCell" owner:self];
-        textField.stringValue = entity.title;
+        if (entity.title) {
+            textField.stringValue = entity.title;
+        } else { //not pulling back localized strings properly.
+            textField.stringValue = @"Desktop Pictures";
+        }
         return textField;
     } else {
         ATTableCellView *cellView = [tableView makeViewWithIdentifier:@"MainCell" owner:self];

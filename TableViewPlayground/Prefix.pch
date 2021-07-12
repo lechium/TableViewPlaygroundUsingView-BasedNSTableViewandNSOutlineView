@@ -1,0 +1,6 @@
+#ifdef __OBJC__
+
+#define LOG_SELF        NSLog(@"%@ %@", self, NSStringFromSelector(_cmd))
+#import "ATDesktopPicturesLocation.h"
+
+#endif
