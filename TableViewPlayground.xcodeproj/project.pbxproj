@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32E1AFB8269BC78A0057D80A /* ATDesktopPicturesLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E1AFB7269BC78A0057D80A /* ATDesktopPicturesLocation.m */; };
+		32E1AFC2269BD09D0057D80A /* ATDesktopPicturesLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E1AFC1269BD09D0057D80A /* ATDesktopPicturesLocation.m */; };
 		53868F921E5E2812002FF831 /* ATMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53868F911E5E2812002FF831 /* ATMainWindowController.m */; };
 		53DE7FDE1E5BAFEF00E7FCF0 /* ATApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DE7FDD1E5BAFEE00E7FCF0 /* ATApplicationController.m */; };
 		53DE7FE11E5BAFFE00E7FCF0 /* ATSampleWindowRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DE7FE01E5BAFFE00E7FCF0 /* ATSampleWindowRowView.m */; };
@@ -30,9 +30,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32E1AFB6269BC78A0057D80A /* ATDesktopPicturesLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATDesktopPicturesLocation.h; sourceTree = "<group>"; };
-		32E1AFB7269BC78A0057D80A /* ATDesktopPicturesLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATDesktopPicturesLocation.m; sourceTree = "<group>"; };
 		32E1AFBC269BC90B0057D80A /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = TableViewPlayground/Prefix.pch; sourceTree = "<group>"; };
+		32E1AFC0269BD09D0057D80A /* ATDesktopPicturesLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATDesktopPicturesLocation.h; path = TableViewPlayground/ATDesktopPicturesLocation.h; sourceTree = "<group>"; };
+		32E1AFC1269BD09D0057D80A /* ATDesktopPicturesLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATDesktopPicturesLocation.m; path = TableViewPlayground/ATDesktopPicturesLocation.m; sourceTree = "<group>"; };
 		530AD8E61E5BB48C00FAC825 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		53868F901E5E2812002FF831 /* ATMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATMainWindowController.h; path = TableViewPlayground/ATMainWindowController.h; sourceTree = "<group>"; };
 		53868F911E5E2812002FF831 /* ATMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATMainWindowController.m; path = TableViewPlayground/ATMainWindowController.m; sourceTree = "<group>"; };
@@ -122,8 +122,8 @@
 				53DE80061E5BB0A700E7FCF0 /* main.m */,
 				53DE7FDC1E5BAFEE00E7FCF0 /* ATApplicationController.h */,
 				53DE7FDD1E5BAFEE00E7FCF0 /* ATApplicationController.m */,
-				32E1AFB6269BC78A0057D80A /* ATDesktopPicturesLocation.h */,
-				32E1AFB7269BC78A0057D80A /* ATDesktopPicturesLocation.m */,
+				32E1AFC0269BD09D0057D80A /* ATDesktopPicturesLocation.h */,
+				32E1AFC1269BD09D0057D80A /* ATDesktopPicturesLocation.m */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 				53DE7FE71E5BB02100E7FCF0 /* ATColorView.m in Sources */,
 				53DE7FF91E5BB07300E7FCF0 /* ATComplexTableViewController.m in Sources */,
 				53DE7FE11E5BAFFE00E7FCF0 /* ATSampleWindowRowView.m in Sources */,
-				32E1AFB8269BC78A0057D80A /* ATDesktopPicturesLocation.m in Sources */,
+				32E1AFC2269BD09D0057D80A /* ATDesktopPicturesLocation.m in Sources */,
 				53DE80081E5BB0A700E7FCF0 /* main.m in Sources */,
 				53DE80021E5BB09400E7FCF0 /* ATComplexOutlineController.m in Sources */,
 			);
