@@ -2,7 +2,7 @@
 
 ## Description
 
-A few minor changes have gotten this mostly working in Catalina+ the Complex TableView example still crashes at the moment, trying to work that out.
+A few minor changes have this working in Catalina+ now. Haven't fully tested ALL functionality but at least all the different window examples load without crashes now!
 
 This example demonstrates the View Based TableView. The demo focuses on three areas:
 1. Basic TableView, 2. Complex TableView, 3. Complex OutlineView.
